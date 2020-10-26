@@ -1,0 +1,55 @@
+body
+{
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.background *
+{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+.front
+{
+    background-image: url("./IMG/Pangong-0.jpg");
+    transition: opacity 3s;
+}
+
+/* .front:hover
+{
+    opacity: 0;
+} */
+.noOpacity
+{
+    opacity: 0;
+}
+
+.back
+{
+    background-image: url("./IMG/Pangong-3.jpg");
+}
+#desc
+{
+    font-size: 52px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    z-index: 1;
+    font-weight: 100;
+    text-align: center;
+    line-height: 172px;
+}
+#time
+{
+    font-size: 52px;
+    color: white;
+    font-family: sans-serif;
+    z-index: 1;
+    font-weight: 100;
+    text-align: center;
+    line-height: 30px;
+}
